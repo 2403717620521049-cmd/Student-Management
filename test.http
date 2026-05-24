@@ -1,0 +1,23 @@
+### GET Students
+GET http://localhost:3000/students
+
+### POST Student
+POST http://localhost:3000/students
+Content-Type: application/json
+
+{
+  "name":"Arun",
+  "age":22,
+  "course":"AI"
+}
+
+### PUT Student
+PUT http://localhost:3000/students/1
+Content-Type: application/json
+
+{
+  "course":"Data Science"
+}
+
+### DELETE Student
+DELETE http://localhost:3000/students/2
